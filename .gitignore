@@ -16,13 +16,9 @@ image/
 images/
 
 # 非公开的组件
-hoshino/modules/pcrclanbattle/clanbattlev3
-hoshino/modules/pcrclanbattle/clanbattlev4
-hoshino/modules/umamusume
-hoshino/modules/pcrjjc3-tw
-hoshino/modules/Magic-System
 _git/
-
+# 去除对 hoshino/modules/ 的追踪
+hoshino/modules/
 # log
 log/
 
