@@ -1,5 +1,10 @@
 import hoshino
 import asyncio
+import os
+import time
+
+os.environ['TZ'] = 'Asia/Shanghai'
+time.tzset()
 
 bot = hoshino.init()
 app = bot.asgi
